@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",                           
+    "moduleResolution": "node",
+    "esModuleInterop": true,                      
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "jsx": "react",
+    "paths": {
+      "three/examples/jsm/libs/dat.gui.module": ["../node_modules/@types/dat.gui"]
+    }
+  },
+  "include": ["Application/*", "./*"]
+}
