@@ -1,15 +1,14 @@
 {
-    "compilerOptions": {
-        "target": "ES6",
-        "moduleResolution": "node",
-        "strict": true,
-        "paths": {
-            "three/examples/jsm/libs/dat.gui.module": ["../node_modules/@types/dat.gui"]
-        },
-        "strictPropertyInitialization": false,
-        "allowSyntheticDefaultImports": true,
-        "jsx": "react",
-    },
-    
-    "include": ["Application/*", "./*"],
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "react"
+  },
+  "include": ["Application/*", "./*"]
 }
